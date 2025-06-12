@@ -1,0 +1,28 @@
+# Copy this file to .env and fill in your actual API keys
+# Choose ONE of the following provider configurations:
+
+# --- Option 1: Regular OpenAI (default) ---
+# OPENAI_API_KEY=your_openai_api_key_here
+# OPENAI_API_TYPE=openai
+# OPENAI_MODEL_NAME=gpt-4o-mini
+# OPENAI_EMBEDDING_MODEL=text-embedding-ada-002
+
+# --- Option 2: Azure OpenAI ---
+# AZURE_OPENAI_API_KEY=your_azure_openai_api_key_here
+# AZURE_OPENAI_ENDPOINT=https://your-resource-name.openai.azure.com/
+# AZURE_OPENAI_API_VERSION=2025-01-01-preview
+# AZURE_OPENAI_DEPLOYMENT_NAME=your-gpt-deployment-name
+# OPENAI_API_TYPE=azure
+
+# --- Custom Embedding Endpoint (optional, used with Azure) ---
+# If set, this is used instead of Azure's embedding deployment.
+# CUSTOM_EMBEDDING_URL=http://your-host:port/encoder/bi-encoder-embed
+# CUSTOM_EMBEDDING_MODEL=your-embedding-model-name
+
+# If not using a custom endpoint, set the Azure embedding deployment:
+# AZURE_OPENAI_EMBEDDING_DEPLOYMENT=your-embedding-deployment-name
+
+# --- LangFuse Monitoring (optional) ---
+# LANGFUSE_PUBLIC_KEY=your_langfuse_public_key_here
+# LANGFUSE_SECRET_KEY=your_langfuse_secret_key_here
+# LANGFUSE_HOST=https://us.cloud.langfuse.com

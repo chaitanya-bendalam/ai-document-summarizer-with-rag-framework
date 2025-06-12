@@ -1,0 +1,12 @@
+streamlit>=1.38.0
+langchain==0.3.25
+langchain-openai==0.3.19
+langchain-community==0.3.24
+langchain-core>=0.3.0
+langfuse>=2.44.0
+pypdf==4.0.1
+python-dotenv==1.0.0
+tiktoken>=0.7.0
+openai>=1.40.0
+chromadb==0.4.22
+requests>=2.31.0
